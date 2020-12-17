@@ -1,0 +1,15 @@
+@import "./mixin";
+// Screen Size
+$screen-sm: 1000px;
+
+$is-small-screen: false !default; 
+// Screen Flow Control;
+@include sm {
+  $is-small-screen: true; 
+}
+
+$font: 18px;
+
+@if $is-small-screen {
+  $font: 100px
+}
