@@ -1,15 +1,19 @@
-@import "./mixin";
+// Typography
+$xl-font-size: (
+  "h1": 24px,
+  "h2": 20px,
+);
+
+$lg-font-size: (
+  "h1": 20px,
+  "h2": 18px,
+);
+
+$md-font-size: (
+  "h1": 18px,
+  "h2": 16px,
+);
+
+
 // Screen Size
 $screen-sm: 1000px;
-
-$is-small-screen: false !default; 
-// Screen Flow Control;
-@include sm {
-  $is-small-screen: true; 
-}
-
-$font: 18px;
-
-@if $is-small-screen {
-  $font: 100px
-}

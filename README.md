@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -14,17 +12,25 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Learn More
+## Generalisation Rules
+Design system is avalible in variable.scss. However, further generalisation should be done as web component.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Folder Structure
+- /abstract
+    This is for storing scss variables.
+- /assets
+    This is for storing images and text.
+- /components
+    This is for storing component, which is composed of JSX elements, simple third party elements, or one or two other components. Building blocks for the website.
+- /constants
+    This is for storing constants (endpoints, screen-size...etc).
+- /pages
+    This is for storing pages, which is composed of multiple widgets, JSX elements, or components. A place that everything is put together.
+- /public
+    This is just for favicon at the moment. 
+- /store
+    This is the central for state management
+- /utils
+    This is for storing util function if I don't end up using everything in Lodash
+- /widgets
+    This is for storing widgets, which is composed of JSX elements, components, or complex third party elements.
