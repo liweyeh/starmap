@@ -12,8 +12,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Generalisation Rules
-Design system is avalible in variable.scss. However, further generalisation should be done as web component.
+## Design System & Styling
+Design system is avalible in variable.scss. However, further Styling should be done in web component.
+
+To view design system: 
+https://www.figma.com/file/rKFcp1IojqLPAEb46K3zxT/Starmap-Colors?node-id=0%3A1
 
 ## Folder Structure
 - /abstract
